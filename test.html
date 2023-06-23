@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .prt{
+            width: 100px;
+            height: 50px;background-color: red;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" id="num1" value="" class="hiiii">
+    <input type="number" id="num2">
+
+<p id="click">Click</p>
+
+<div class="prt">subtarsdssd</div>
+<div class="prt">DSSFSDFSD</div>
+<div class="prt">Hiiiiiiiiii</div>
+<div class="prt">Hiiiiiiiiii</div>
+<div class="prt">Hiiiiiiiiii</div>
+    <script>
+var clk = document.getElementById("click");
+
+clk.addEventListener("click",ss);
+
+function ss(){
+var a = document.getElementById("num1").value;
+var b = document.getElementById("num2").value;
+var x =a+b;
+var ll=document.querySelectorAll(".prt");
+var j=ll[0].innerHTML;
+console.log( `${x}`);
+
+}
+    </script>
+</body>
+</html>
